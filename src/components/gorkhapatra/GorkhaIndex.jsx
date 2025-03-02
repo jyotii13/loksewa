@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import GorkhaPatra from './GorkhaPatra';
-import NepalSamachar from './nepalsamachar';
-
-
+import SamacharNepal from './SamacharNepal';
 
 const GorkhaIndex = () => {
     const [activeTab, setActiveTab] = useState('gorkha');
@@ -38,7 +36,7 @@ const GorkhaIndex = () => {
 
       {/* Conditionally Render Each Component */}
       {activeTab === 'gorkha' && <GorkhaPatra/>}
-      {activeTab === 'samachar' && <NepalSamachar />}
+      {activeTab === 'samachar' && <SamacharNepal />}
     </div>
   )
 }

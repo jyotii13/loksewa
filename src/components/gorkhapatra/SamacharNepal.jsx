@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-const NepalSamachar = () => {
+const SamacharNepal = () => {
     const [items, setItems] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -84,4 +84,4 @@ const NepalSamachar = () => {
     )
 }
 
-export default NepalSamachar
+export default SamacharNepal
