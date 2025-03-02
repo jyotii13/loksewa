@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
-import GorkhaPatra from './gorkhapatra';
+import GorkhaPatra from './GorkhaPatra';
 import NepalSamachar from './nepalsamachar';
+
 
 
 const GorkhaIndex = () => {
